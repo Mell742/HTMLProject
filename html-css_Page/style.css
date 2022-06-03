@@ -52,10 +52,15 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
   text-align: center;
   background: #ddd;
-  margin-top: 20px;
+ 
 }
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
